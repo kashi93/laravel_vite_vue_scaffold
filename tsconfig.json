@@ -1,0 +1,9 @@
+{
+  "include": ["./resources/js/vue/**/*", "./resources/js/vue/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./resources/js/vue/*"]
+    }
+  }
+}
